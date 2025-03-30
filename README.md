@@ -79,7 +79,8 @@ With Dr. caroline Fohlin of the Emory financial economics department, I showed t
 - MS Word/Excel/PowerPoint
 
 ## Additional Experience
-###Residential Advisor (Aug 2025-May 2026)
+
+### Residential Advisor (Aug 2025-May 2026)
 - Will be an RA for Emory sophomore students next year
 
 ### Fictional Author
