@@ -79,15 +79,15 @@ With Dr. caroline Fohlin of the Emory financial economics department, I showed t
 - MS Word/Excel/PowerPoint
 
 ## Additional Experience
-#Residential Advisor (Aug 2025-May 2026)
+###Residential Advisor (Aug 2025-May 2026)
 - Will be an RA for Emory sophomore students next year
 
-# Fictional Author
+### Fictional Author
 - I am in the first-draft stages of a novel (have been in progress between school semesters for 2+ years)
 - Currently at ~120 pages
 - Writing on the side has made me an effective communicator and thinker, better enabling me to break down complex concepts when it comes to the technical evironments of my data science work
 
-# Academic Tutor - Glenbrook North High School (2021-2023)
+### Academic Tutor - Glenbrook North High School (2021-2023)
 - Guided weekly trainings in writing skills, exemplifying professionalism to 20+ newer tutors per year
 - Coordinated brainstorming, writing, editing of lab reports, college essays, research papers for 15+ students per year
 
