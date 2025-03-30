@@ -5,27 +5,27 @@
 - B.A., Economics | Emory University (Aug 2023-)
 
 ## Work Experience
-**Northwestern University Feinberg School of Medicine (May 2024-Aug 2024)**
+**Northwestern University Feinberg School of Medicine (May 2024-Aug 2024)** <br/>
 *Research Intern*
 - Enhanced spatial selectivity of cochlear implants, allowing for speech perception across wider range of frequencies in patients with profound to complete hearing loss
 - Built Fast-Fourier Transform and pre-emphasis filter for decomposition of audio signal into individual frequencies
 - Optimized runtime for code in MATLAB and C from 300 milliseconds to below 1 millisecond for minimal delays in speech processing
 
-**Emory Data Science Club (Sep 2023-Present)**
+**Emory Data Science Club (Sep 2023-Present)** <br/>
 *President*
 - Prior Roles: Freshman Representative --> Projects Chair --> VP of Projects
 - Identified project opportunities with professors and companies to increase accessibility of hands-on data analysis trainings for 60+ students, eventually spearheading collaboration with Emory STEM Career Community
 - Designed and supervised 3 projects involving American Airlines bag arrivals, retrospective economic analysis, and storm surge modeling, promoting joint participation in data science projects for 50+ students and faculty
 - Built random forest models and utilized principal component analysis in R to increase accuracy of classification for subtypes G3 and G4 of Medulloblastoma brain cancer subtyping project
 
-**Emory + Georgia Tech Department of Biomedical Informatics**
+**Emory + Georgia Tech Department of Biomedical Informatics** <br/>
 *Undergraduate Researcher*
 - Studying human activity recognition with Dr. Hyeok Kwon to track human behaviors, allowing for prediction of early disease onset
 - Developing edge computing platform for multimodal ambient sensing
 - Hardware Engineering with Raspberry Pi, NVIDIA
 - Participate in weekly undergrad ML lectures
 
-**Reyes Coca-Cola Bottling (May 2025-Aug 2025)**
+**Reyes Coca-Cola Bottling (May 2025-Aug 2025)** <br/>
 *Logistics Planning Intern*
 - Incoming
 - Will work with logistics team to coordinate delivery of Coca-Cola products to shelves via truck across Midwest & West Coast
