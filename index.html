@@ -81,19 +81,17 @@
             font-weight: bold;  /* Bold font for emphasis */
             font-size: 2.5rem;  /* Adjust the size of the heading */
             color: #1E90FF;  /* Dodger Blue */
-            letter-spacing: 2px;  /* Spacing between letters */
+            letter-spacing: 1px;  /* Spacing between letters */
             margin-bottom: 20px;  /* Space below the heading */
-            text-align: center;  /* Center the text */
         }
         /* Style for h3 (Georgia) */
         h3 {
             font-family: 'Georgia', serif;  /* Elegant serif font for h3 */
             font-weight: normal;  /* Slightly lighter weight than h2 */
-            font-size: 2rem;  /* A bit smaller than h2 */
-            color: #E6E6FA;  /* Lavender */
+            font-size: 1.5rem;  /* A bit smaller than h2 */
+            color: #F5F5DC;  /* Beige */
             letter-spacing: 1px;  /* A subtle space between letters */
             margin-bottom: 15px;  /* Space below the heading */
-            text-align: center;  /* Center the heading */
             transition: color 0.3s ease;  /* Smooth transition for color change on hover */
         }
 
@@ -117,6 +115,16 @@
         embed {
         display: block;              /* Ensures the embed is treated as a block element */
         margin: 0 auto;              /* Centers the embed horizontally */
+        }
+        .subsection {
+            display: flex; /* Turn the container into a flex container */
+            flex-direction: column; /* Stack children (h4, iframe) vertically */
+            justify-content: center; /* Vertically align items in the center */
+            align-items: center; /* Horizontally align items in the center */
+            height: 300px; /* Optional: You can set a height to see the vertical centering clearly */
+            text-align: center; /* Center the text inside h4 */
+            border: 1px solid #ccc; /* Optional: Border for visual demonstration */
+            padding: 20px; /* Optional: Padding inside the container */
         }
     </style>
 </head>
@@ -201,9 +209,10 @@
             <li>Trained random forest, gradient boosting regression models in Python to predict total calories burned in a day given key fitness metrics, resulting in 95% accuracy score prior to residual analysis and parameter tuning</li>
         </ul>
 
+        <div class="subsection">
         <h4>View My Project!</h4>
         <iframe src="assets/file_uploads/healthdatamodeling.html" width="50%" height="300px"></iframe>
-
+        </div>
 
         <!--Personal Project 2-->
         <h3>LEGO Set Valuation Analysis (Dec 2024)</h3>
