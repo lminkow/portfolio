@@ -12,9 +12,8 @@
 - Optimized runtime for code in MATLAB and C from 300 milliseconds to below 1 millisecond for minimal delays in speech processing
 
 _Full Summary of My Work!_
-<iframe src="https://raw.githubusercontent.com/lminkow/portfolio/main/assets/file_uploads/NW24_LM_Report.pdf" width="100%" height="600px">
-  Your browser does not support inline PDFs.
-</iframe>
+
+
 
 **Emory Data Science Club (Sep 2023-Present)** <br/>
 *President*
@@ -41,9 +40,8 @@ _Full Summary of My Work!_
 - Data scraped and cleaned data from 840 personal workout sessions from Apple Watch between July 2023 and April 2025
 - Trained random forest, gradient boosting regression models in Python to predict total calories burned in a day given key fitness metrics, resulting in 95% accuracy score prior to residual analysis and parameter tuning
 
-_View My Project Here!_
-<iframe src="https://raw.githubusercontent.com/lminkow/portfolio/main/assets/file_uploads/healthdatamodeling.html" width="100%" height="600px">
-</iframe>
+_View My Project With the Link Below!_
+[Fitness Calorie Project](https://raw.githubusercontent.com/lminkow/portfolio/main/assets/file_uploads/healthdatamodeling.html)
 
 **LEGO Set Valuation Analysis (Dec 2024)**
 - Cleaned Kaggle dataset with 2000+ LEGO sets retail information and Bricklink resell prices
