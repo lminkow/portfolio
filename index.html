@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landon Minkow's Portfolio</title>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,9 +18,10 @@
             display: flex;
             justify-content: center; /* Centers content horizontally */
             align-items: center;     /* Centers content vertically */
+            flex-direction: column; /* Stack the elements vertically */
             background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(255, 99, 71, 0.6)), url('assets/images/LandonMinkowHeadshot.jpg') center/cover no-repeat;
             height: 100vh;
-            color: white;
+            color: gray;
             text-align: center;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
             transition: background 0.3s ease-in-out; /* Smooth transition on hover */
@@ -61,6 +63,12 @@
                 transform: translateY(0);
                 opacity: 1;
             }
+        }
+        /* Header Title Styling */
+        .header-title {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
         }
         section {
             padding: 20px;
