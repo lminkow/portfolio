@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;  /* Background for the rest of the page */
+            background-color: #f8f8f8;  /* Background for the rest of the page */
             height: 100%;
         }
 
@@ -23,9 +23,11 @@
             align-items: center;       /* Center horizontally */
             text-align: center;        /* Center the text */
             height: 100vh;             /* Full height of the viewport */
-            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(255, 99, 71, 0.6)), url('assets/images/LandonMinkowHeadshot.jpg') center;
+            background-color: #003366; /* Navy blue background */ 
             color: white;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            padding: 0 20px;           /* Add some padding to prevent edges from touching */
+            box-sizing: border-box;    /* Ensures padding is inside the element */
         }
 
         /* Adding a semi-transparent overlay to darken the background */
@@ -69,12 +71,14 @@
             font-size: 3rem;
             margin: 0;
             font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);  /* Adds a shadow behind the text */
         }
 
         /* Header Subtitle Styling */
         .header-subtitle {
             font-size: 1.5rem;
             color: #f39c12;  /* A nice yellow-orange color */
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  /* Light shadow for subtitle */
         }
 
         section {
