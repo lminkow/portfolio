@@ -23,23 +23,11 @@
             align-items: center;       /* Center horizontally */
             text-align: center;        /* Center the text */
             height: 100vh;             /* Full height of the viewport */
-            background-color: #003366; /* Navy blue background */ 
+            background-color: navy; /* Navy blue background */ 
             color: white;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
             padding: 0 20px;           /* Add some padding to prevent edges from touching */
             box-sizing: border-box;    /* Ensures padding is inside the element */
-        }
-
-        /* Adding a semi-transparent overlay to darken the background */
-        header::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);  /* Dark overlay to make text more readable */
-            z-index: -1;  /* Keep the overlay behind the content */
         }
 
         /* Profile Image Styling */
@@ -71,14 +59,14 @@
             font-size: 3rem;
             margin: 0;
             font-weight: bold;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);  /* Adds a shadow behind the text */
+            text-shadow: none;
         }
 
         /* Header Subtitle Styling */
         .header-subtitle {
             font-size: 1.5rem;
             color: #f39c12;  /* A nice yellow-orange color */
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);  /* Light shadow for subtitle */
+            text-shadow: none;
         }
 
         section {
