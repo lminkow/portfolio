@@ -36,8 +36,12 @@ _Full Summary of My Work!_
 ## Personal Projects
 
 **Fitness Calorie Predictor (Jan 2025-Feb 2025)**
-- Data scraped and cleaned data from 800 personal workout sessions from Apple Watch between July 2023 and Jan 2025
-- Trained random forest, gradient boosting regression models in Python to predict total calories burned in a day given key fitness metrics, resulting in 96.3% accuracy score prior to residual analysis and parameter tuning
+- Data scraped and cleaned data from 840 personal workout sessions from Apple Watch between July 2023 and April 2025
+- Trained random forest, gradient boosting regression models in Python to predict total calories burned in a day given key fitness metrics, resulting in 95% accuracy score prior to residual analysis and parameter tuning
+
+_View My Project Here!_
+<iframe src="https://raw.githubusercontent.com/lminkow/portfolio/main/assets/file_uploads/healthdatamodeling.html" width="100%" height="600px">
+
 
 **LEGO Set Valuation Analysis (Dec 2024)**
 - Cleaned Kaggle dataset with 2000+ LEGO sets retail information and Bricklink resell prices
