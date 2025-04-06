@@ -83,6 +83,18 @@
         h3 {
             color: #555;
         }
+        .pdf-container {
+        display: flex;               /* Enable flexbox for centering */
+        justify-content: center;     /* Horizontally center the embed */
+        align-items: center;         /* Vertically center the embed */
+        height: auto;                /* Adjust the height if needed */
+        }
+
+        embed {
+        display: block;              /* Ensures the embed is treated as a block element */
+        margin: 0 auto;              /* Centers the embed horizontally */
+        }
+
         footer {
             background: #333;
             color: white;
@@ -127,8 +139,9 @@
         </ul>
       
         <h4>Summary of my Work</h4>
-        <embed src="assets/file_uploads/NW24_LM_Report.pdf" width="50%" height="300px" type="application/pdf">
-
+        <div class="pdf-container">
+            <embed src="assets/file_uploads/NW24_LM_Report.pdf" width="50%" height="300px" type="application/pdf">
+        </div>
 
         <!-- Work Experience 2 -->
         <h3>Emory Data Science Club (Sep 2023-Present)</h3>
