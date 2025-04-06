@@ -11,6 +11,9 @@
 - Built Fast-Fourier Transform and pre-emphasis filter for decomposition of audio signal into individual frequencies
 - Optimized runtime for code in MATLAB and C from 300 milliseconds to below 1 millisecond for minimal delays in speech processing
 
+_Full Summary of My Work!_
+ <embed src="https://raw.githubusercontent.com/lminkow/portfolio/main/assets/file_uploads/NW24_LM_Report.pdf" type="application/pdf" width="100%" height="600px">
+
 **Emory Data Science Club (Sep 2023-Present)** <br/>
 *President*
 - Prior Roles: Freshman Representative --> Projects Chair --> VP of Projects
