@@ -14,15 +14,19 @@
         }
         header {
             position: relative;
+            display: flex;
+            justify-content: center; /* Centers content horizontally */
+            align-items: center;     /* Centers content vertically */
             background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(255, 99, 71, 0.6)), url('assets/images/LandonMinkowHeadshot.jpg') center/cover no-repeat;
             height: 100vh;
             color: white;
             text-align: center;
-            padding-top: 100px; /* Adjust depending on how high you want your text */
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: background 0.3s ease-in-out; /* Smooth transition on hover */
         }
+        /* Hover effect to darken the background */
         header:hover {
-            background: #555;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(255, 99, 71, 0.7)), url('assets/images/LandonMinkowHeadshot.jpg') center/cover no-repeat;
         }
         /* Adding a semi-transparent overlay to darken the background */
         header::before {
@@ -86,8 +90,8 @@
 
      <!-- Header Section with Photo -->
     <div class="header">
-        <img src="assets/images/LandonMinkowHeadshot.jpg" alt="Your Photo" class="header-img>
-        <h1 class="header-title">Your Name</h1>
+        <img src="assets/images/LandonMinkowHeadshot.jpg" alt="Your Photo" class="header-img">
+        <h1 class="header-title">Landon Minkow</h1>
         <p class="header-subtitle">Welcome to my Portfolio!</p>
     </div>
     
