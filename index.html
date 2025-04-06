@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;  /* Background for the rest of the page */
+            background-color: #F5F5DC; /*Beige*/
             height: 100%;
         }
 
@@ -89,7 +89,7 @@
             font-family: 'Georgia', serif;  /* Elegant serif font for h3 */
             font-weight: normal;  /* Slightly lighter weight than h2 */
             font-size: 1.5rem;  /* A bit smaller than h2 */
-            color: #F5F5DC;  /* Beige */
+            color: navy;  
             letter-spacing: 1px;  /* A subtle space between letters */
             margin-bottom: 15px;  /* Space below the heading */
             transition: color 0.3s ease;  /* Smooth transition for color change on hover */
@@ -123,7 +123,6 @@
             align-items: center; /* Horizontally align items in the center */
             height: 300px; /* Optional: You can set a height to see the vertical centering clearly */
             text-align: center; /* Center the text inside h4 */
-            border: 1px solid #ccc; /* Optional: Border for visual demonstration */
             padding: 20px; /* Optional: Padding inside the container */
         }
     </style>
@@ -152,7 +151,7 @@
 
         <!-- Work Experience 1 -->
         <h3>Northwestern University Feinberg School of Medicine (May 2024-Aug 2024)</h3>
-        <p class="job-title">Job Title: Research Intern</p>
+        <p><i>class="job-title">Job Title: Research Intern</i></p>
       
         <ul>
             <li>Enhanced spatial selectivity of cochlear implants, allowing for speech perception across wider range of frequencies in patients with profound to complete hearing loss</li>
@@ -160,29 +159,31 @@
             <li>Optimized runtime for code in MATLAB and C from 300 milliseconds to below 1 millisecond for minimal delays in speech processing</li>
         </ul>
       
-        <h4>Summary of my Work</h4>
         <div class="pdf-container">
             <embed src="assets/file_uploads/NW24_LM_Report.pdf" width="50%" height="300px" type="application/pdf">
         </div>
 
         <!-- Work Experience 2 -->
         <h3>Emory Data Science Club (Sep 2023-Present)</h3>
-        <p class="job-title">Job Title: President</p>
+        <p><i>class="job-title">Job Title: President</i></p>
       
         <ul>
             <li>Prior Roles: Freshman Representative --> Projects Chair --> VP of Projects</li>
-            <li>Identified project opportunities with professors and companies to increase accessibility of hands-on data analysis trainings for 60+ students, eventually spearheading collaboration with Emory STEM Career Community</li>
-            <li>Designed and supervised 3 projects involving American Airlines bag arrivals, retrospective economic analysis, and storm surge modeling, promoting joint participation in data science projects for 50+ students and faculty</li>
+            <li>Identified project opportunities with professors and companies to increase accessibility of hands-on data analysis trainings for 60+ students</li>
+            <li>Spearheaded collaboration with between the club and the Emory STEM Career Community (housed under Emory Pathways)</li>
+            <li>Designed and supervised 3 projects involving American Airlines, retrospective economic analysis, and storm surge modeling, promoting joint participation in data science projects for 50+ students and faculty</li>
             <li>Built random forest models and utilized principal component analysis in R to increase accuracy of classification for subtypes G3 and G4 of Medulloblastoma brain cancer subtyping project</li>
         </ul>
 
 
        <!-- Work Experience 3 -->
         <h3>Emory + Georgia Tech Department of Biomedical Informatics</h3>
-        <p class="job-title">Job Title: Undergraduate Researcher</p>
+        <p><i>class="job-title">Job Title: Undergraduate Researcher</i></p>
       
         <ul>
             <li>Studying human activity recognition with Dr. Hyeok Kwon to track human behaviors, allowing for prediction of early disease onset</li>
+            <li>Implemented Deep Convolution LSTM Model to classify locomotion activities with 93% accuracy </li>
+            <li>Performing feature extraction using TSFresh, ECDF extraction in Python</li>
             <li>Developing edge computing platform for multimodal ambient sensing</li>
             <li>Hardware Engineering with Raspberry Pi, NVIDIA</li>
             <li>Participate in weekly undergrad ML lectures</li>
@@ -191,13 +192,14 @@
 
       <!-- Work Experience 4 -->
         <h3>Reyes Coca-Cola Bottling (May 2025-Aug 2025)</h3>
-        <p class="job-title">Job Title: Logistics Planning Intern</p>
+        <p><i>class="job-title">Job Title: Logistics Planning Intern</i></p>
       
         <ul>
             <li>Incoming</li>
             <li>Will work with logistics team to coordinate delivery of Coca-Cola products to shelves via truck across Midwest & West Coast</li>
         </ul>
     <section>
+        
     <!-- Section 3: Personal Projects -->
     <section>
         <h2>Personal Projects</h2>
@@ -206,7 +208,9 @@
         <h3>Fitness Calorie Predictor (Jan 2025-Feb 2025)</h3>
         <ul>
             <li>Data scraped and cleaned data from 840 personal workout sessions from Apple Watch between July 2023 and April 2025</li>
-            <li>Trained random forest, gradient boosting regression models in Python to predict total calories burned in a day given key fitness metrics, resulting in 95% accuracy score prior to residual analysis and parameter tuning</li>
+            <li>Deployed Ridge Regression Model & Random Forest Models to predict my total calories burned in a day given statistics related to step count, time of year, and workout intensity, resulting in 95% accuracy</li>
+            <li>Evaluated and minimized overfitting with residual analysis, cross validation, and relative residuals </li>
+            <li>Python libraries used: Seaborn, Calendar, Numpy, Pandas, Matplotlib, Scikit-learn</li>
         </ul>
 
         <div class="subsection">
@@ -300,8 +304,8 @@
 
     <!-- Section 7: Additional Things About Me -->
     <section>
-        <h2>Additional Things About Me</h2>
-        <p>These are the other important aspects of my life: </p>
+        <h2>The Other Things that Shape Me</h2>
+        <p>These are the hats that I've learned, all of which help me in professional endeavors: </p>
 
          <!--Soccer-->
         <h3>Former Competitive Athlete (Soccer - Midfielder) (Aug 2015-May 2023)</h3>
@@ -324,6 +328,15 @@
             <li>Currently at ~120 pages</li>
             <li>Writing on the side has made me an effective communicator and thinker, better enabling me to break down complex concepts 
               when it comes to the technical evironments of my data science work</li>
+        </ul>
+
+         <!--STEM Career Trek-->
+        <h3>Emory STEM Career Trek to San Francisco Selectee</h3>
+        <ul>
+            <li>Selected as 1 of 20 out a pool of 120 applicants to visit Silicon Valley/SF to network with Emory alumni in tech</li>
+            <li>Toured offices of Google, Salesforce, Genentech, Handshake, the EPA</li>
+            <li>Spoke at banquet hall in front of 70+ students and professionals</li>
+            <li>Made really great friends at Emory and LEARNED A LOT</li>
         </ul>
 
         <!--ARC Tutor-->
