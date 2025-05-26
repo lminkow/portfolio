@@ -235,8 +235,27 @@
             if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) 
             { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                 
             var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+         <!--Personal Project 2-->
+        <h3>What Does the World Think of GF? (Mar 2025)</h3>
         
-        <!--Personal Project 2-->
+        <p> As a patient with Celiac Disease and genuine interests in the food & beverage industry, I performed a sentiment analysis
+            over public opinion of Celiac and the gluten free diet. This project is centered around Reddit posts, which were obtained 
+            from 6 subreddits, including both general channels and pages dedicated to GF for a diverse dataset. Basic data scraping can be found
+            <a href="assets/file_uploads/reddit_scraping.html" target="_blank">here</a>!
+        This analysis compares two opular sentiment analysis libraries: VADER and TextBlob. Additionally, I compare the polarity scores of posts 
+        from each subreddit and then evaluate how well the assigned scores (positive, negative, neutral) might align with what a human Reddit user would perceive.
+        This was a cool way for me to check if my perceived stigma against my food allergy is shared across the wider GF/Celiac community </p>
+        <ul>
+            <li>Python libraries used: textblob, nltk, praw, scipy.stats, wordcloud</li>
+        </ul>
+
+        <div class="subsection">
+        <h4><a href="assets/file_uploads/sentimentAnalysis_compare.html">Click Here to View Project</a></h4>
+        <iframe src="assets/file_uploads/sentimentAnalysis_compare.html" width="50%" height="300px"></iframe>
+        </div>
+        
+        <!--Personal Project 3-->
         <h3>LEGO Set Valuation Analysis (Dec 2024)</h3>
 
         <p> I am a diehard LEGO fan, and oftentimes an investor/reseller of the product! Out of interest, I cleaned a Kaggle dataset with 2000+
@@ -252,14 +271,6 @@
             <h4><a href="assets/file_uploads/Lego Tableau Analysis.pdf">Click Here to View Summary of My Work</a></h4>
             <embed src="assets/file_uploads/Lego Tableau Analysis.pdf" width="50%" height="300px" type="application/pdf">
         </div>
-
-         <!--Personal Project 3-->
-        <h3>What Does the World Think of GF? (Mar 2025)</h3>
-        <ul>
-            <li>Sentiment Analysis project - just began</li>
-            <li>Scraping data directly from Reddit API to conduct sentiment analysis of gluten free foods/recipes via different subreddit pages</li>
-            <li>Challenge: No longer have free access to Twitter or Facebook API's</li>
-        </ul>
      
     </section>
 
